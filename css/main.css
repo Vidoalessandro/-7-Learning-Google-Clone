@@ -30,12 +30,20 @@ header nav .nav-right-section {
 }
 
 nav .nav-right-section a {
-    margin-right: 10px;
+    margin-right: 13px;
     color: #000;
 }
 
+nav .nav-right-section .gmail a {
+    margin-right: 14px;
+}
+
+nav .nav-right-section .gmail a:hover,
+nav .nav-right-section .img a:hover {
+    text-decoration: underline;
+}
+
 nav .nav-right-section .menu-icon {
-    background-image: url(/img/menu-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -64,8 +72,8 @@ main .main-logo {
 }
 
 main .main-logo img {
-    width: 350px;
-    height: 115px;
+    width: 320px;
+    height: 110px;
     margin-left: 18px;
 }
 
