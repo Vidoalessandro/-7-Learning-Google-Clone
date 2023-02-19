@@ -50,3 +50,103 @@ nav .nav-right-section img {
     margin-left: 22px;
     margin-top: 4px;
 }
+
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+main .main-logo img {
+    width: 350px;
+    height: 115px;
+    margin-left: 18px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 551px;
+    height: 45px;
+    border-radius: 100px;
+    border: solid 1px #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input-container input {
+    width: 450px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+main .main-input-container .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+main .main-input-container .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid white;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+main .main-buttons .search {
+    margin-left: 30px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
